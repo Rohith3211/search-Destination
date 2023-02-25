@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  display: flex;
+
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+.input {
+  padding: 7px;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-width: 0px;
+  outline: none;
+  background-color: #f1f5f9;
+}
+.img1 {
+  height: 30px;
+  background-color: #f1f5f9;
+  margin-right: 0px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.search-div {
+  display: flex;
+}
